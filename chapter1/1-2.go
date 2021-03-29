@@ -1,4 +1,4 @@
-package chaper1
+package chapter1
 
 //gofmt会根据字母顺序进行排序
 //方式1 列表形式 常用

@@ -1,14 +1,19 @@
 package main
 
+import (
+	"github/gang/go-grammar/chapter1"
+	"github/gang/go-grammar/chapter2"
+)
+
 func main() {
-	//chaper1.Main11()
-	//chaper1.Main12()
-	//chaper1.Main13()
-	//chaper1.Main14()
-	//chaper1.Main15()
-	//chaper1.Main16()
-	//chaper1.Main17()
-	//chaper1.Main18()
-	//chaper2.Main22()
-	//chaper2.Main23()
+	chapter1.Main11()
+	chapter1.Main12()
+	chapter1.Main13()
+	chapter1.Main14()
+	chapter1.Main15()
+	chapter1.Main16()
+	chapter1.Main17()
+	chapter1.Main18()
+	chapter2.Main22()
+	chapter2.Main23()
 }
