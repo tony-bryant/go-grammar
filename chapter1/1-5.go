@@ -1,4 +1,4 @@
-package main
+package chaper1
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ import (
 
 //通过net包网络获取数据
 //无返回值则空着，不需要void
-func main() {
+func Main15() {
 	//声明一个地址切片
 	var URLs = []string{"http://www.baidu.com", "http://www.qq.com", "http://www.sina.com"}
 	start := time.Now()

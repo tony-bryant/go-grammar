@@ -1,4 +1,4 @@
-package main
+package chaper1
 
 //gofmt会根据字母顺序进行排序
 //方式1 列表形式 常用
@@ -18,7 +18,7 @@ import (
 //os.Args程序的命令参数，由string的动态数组组成
 //os.Args[0]是命令本身的名字
 //os.Args[1:len(os.Args)]具体参数
-func main() {
+func Main12() {
 	//声明变量名 变量类型
 	//隐式赋予其类型零值
 	//数值形类型为0
@@ -36,14 +36,14 @@ func main() {
 	}
 	fmt.Println(s)
 	fmt.Println(num)
-	loop1()
+	Loop1()
 	loop2()
 	loop3()
 	loop4()
 	declareVariables()
 }
 
-func loop1() {
+func Loop1() {
 	//for循环操作1
 	//初始值  条件  操作
 	//初始值 可以省略

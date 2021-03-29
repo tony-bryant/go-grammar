@@ -1,4 +1,4 @@
-package main
+package chaper1
 
 import (
 	"bufio"
@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Main13() {
 	//dup1()
 	print()
 }

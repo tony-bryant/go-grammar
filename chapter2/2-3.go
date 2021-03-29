@@ -1,10 +1,10 @@
-package main
+package chaper2
 
 import (
 	"fmt"
 )
 
-func main() {
+func Main23() {
 	PointerTest()
 }
 

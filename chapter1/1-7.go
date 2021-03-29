@@ -1,4 +1,4 @@
-package main
+package chaper1
 
 import (
 	"fmt"
@@ -21,13 +21,13 @@ var count int
 
 //web微服务 返回当前用户正在访问的URL
 //每一个请求都启动一个goroutine  服务器可以同时处理多个请求
-func main() {
+func Main17() {
 	//将handler函数作为类型传入
 	//将请求转发到handler函数中处理
 	//类似模板方法
 	//地址代表默认地址
-	http.HandleFunc("/",handler)
-	http.HandleFunc("/count",counter)
+	http.HandleFunc("/", handler)
+	http.HandleFunc("/count", counter)
 	//使用匿名函数
 	//http.HandleFunc("/lissajous", func(w http.ResponseWriter, r *http.Request) {
 	//	lissajous(w)

@@ -1,6 +1,6 @@
 //package go语言中的包，每个源文件都需要声明package
 //可独立执行的程序，而不是一个库
-package main
+package chaper1
 
 //导入别的包
 //导入必须的包，删除未导入的包（佛者编译失败）
@@ -11,7 +11,7 @@ import "fmt"
 //常量 const
 //类型 type
 
-func main() {
+func Main11() {
 	test(1)
 }
 

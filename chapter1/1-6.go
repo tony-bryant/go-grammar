@@ -1,4 +1,4 @@
-package main
+package chaper1
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ import (
 //并发获取URL内容  goroutine+channel
 //主goroutine
 //当goroutine在channel上做send或者receive操作时，这个goroutine会阻塞在调用处
-func main() {
+func Main16() {
 	//声明一个地址切片
 	var URLs = []string{"http://www.baidu.com", "http://www.qq.com", "http://www.sina.com"}
 	//创建不限长的通道

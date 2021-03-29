@@ -1,6 +1,14 @@
-package main
+package chaper1
 
-import "fmt"
+import (
+	"fmt"
+)
+
+func Main18() {
+	switchFun1(1)
+	switchFun2(1)
+	loop()
+}
 
 //不需要显式声明break
 //执行完成一个case后自动退出
