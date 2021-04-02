@@ -3,7 +3,7 @@ package main
 import (
 	_ "github/gang/go-grammar/chapter1"
 	_ "github/gang/go-grammar/chapter2"
-	"github/gang/go-grammar/chapter5"
+	"github/gang/go-grammar/chapter6"
 )
 
 func main() {
@@ -38,5 +38,11 @@ func main() {
 	//chapter5.Main57()
 	//chapter5.Main58()
 	//chapter5.Main59()
-	chapter5.Main510()
+	//chapter5.Main510()
+	//chapter6.Main61()
+	//chapter6.Main62()
+	//chapter6.Main63()
+	//chapter6.Main64()
+	chapter6.Main65()
+	chapter6.Main66()
 }
